@@ -2,6 +2,24 @@
 #include<stack>
 #include<vector>
 using namespace std;
+
+/*
+############################################
+############################################
+				SuperStack
+############################################
+############################################
+Operations of stack.
+
+ Super Stack -
+
+    Push
+    Pop
+    inc e k(increment last e items by k) 
+
+(O(n^2) doesn’t pass all cases).
+*/
+
 class SuperStack{
     public:
     stack<int> S;
